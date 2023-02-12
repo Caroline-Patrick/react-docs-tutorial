@@ -28,7 +28,7 @@ function Square() {
   // This code declares a state variable value in a functional component using the useState hook in React.js. It initializes the value of value to null. The setValue function is used to update the value of value.
 
   function handleClick(){
-    console.log('clicked!')
+    setValue('X')
   }
   return <button className="square" onClick={handleClick}>{value}</button>
 }
